@@ -1,0 +1,93 @@
+body{
+    background-color: 
+    #E3E3E3;
+    font-family: cursive;
+}
+
+.container{
+    width: 1200px;
+    margin-left: 160px;
+}
+
+.main-heading-flex{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.2)), url('Assets/tree-832079_640.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-position-x: 90px;
+    background-position-y: -367px;
+}
+
+.main-title{
+    width: 400px;
+}
+
+.dropdown-list {
+    display: none;
+    padding-top: 25px;
+    position: absolute;
+    text-align: left;
+    left: 742px; 
+}
+
+.dropdown-list ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.dropdown-list li a{
+    text-decoration: none;
+    text-align: center;
+    color: black !important;
+}
+
+.main-navigation-content-flex ul li:hover .dropdown-list {
+    display: block;
+}
+
+.main-navigation-content-flex .ul-flex{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, 	#A9A9A9, #1a1a1a);
+    list-style: none;
+    margin-top: 0px;
+    padding: 20px 15px 20px 15px;
+    color: white;
+}
+
+.main-navigation-content-flex .ul-flex a{
+    color: white;
+}
+
+.nav-bar{
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-bar:hover{
+    color: white;
+    background-color: black;
+}
+
+.main-content-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 25px;
+    border-top: 1px solid;
+}
+
+.sidebar-text{
+    padding-right: 65px;
+}
